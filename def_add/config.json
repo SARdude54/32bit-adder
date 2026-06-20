@@ -1,16 +1,16 @@
 {
-    "DESIGN_NAME": "mul",
+    "DESIGN_NAME": "add",
 
     "VERILOG_FILES": [
-        "dir::rtl/mul.sv"
+        "dir::rtl/add.sv"
     ],
     "VERILOG_DEFINES": ["USE_POWER_PINS"],
 
-    "CLOCK_PERIOD": 30,
+    "CLOCK_PERIOD": 10,
     "CLOCK_PORT": "clk",
 
-    "PNR_SDC_FILE": "dir::constraints/mul.sdc",
-    "SIGNOFF_SDC_FILE": "dir::constraints/mul.sdc",
+    "PNR_SDC_FILE": "dir::constraints/add.sdc",
+    "SIGNOFF_SDC_FILE": "dir::constraints/add.sdc",
 
     "FP_PDN_VOFFSET": 7,
     "FP_PDN_HOFFSET": 7,

@@ -7,7 +7,7 @@ module add (
         inout wire VGND,
     `endif
 
-    input  logic        CLK,
+    input  logic        clk,
     input  logic        rst_n,
 
     input  logic        vld_in,
@@ -34,7 +34,7 @@ module add (
 
     // assign c_q = A * B;
 
-    always_ff @(posedge CLK) begin
+    always_ff @(posedge clk) begin
         if (!rst_n) begin
             C       <= 32'b0;
             vld_out <= 1'b0;
