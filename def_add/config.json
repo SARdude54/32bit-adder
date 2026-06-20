@@ -1,0 +1,27 @@
+{
+    "DESIGN_NAME": "mul",
+
+    "VERILOG_FILES": [
+        "dir::rtl/mul.sv"
+    ],
+    "VERILOG_DEFINES": ["USE_POWER_PINS"],
+
+    "CLOCK_PERIOD": 30,
+    "CLOCK_PORT": "clk",
+
+    "PNR_SDC_FILE": "dir::constraints/mul.sdc",
+    "SIGNOFF_SDC_FILE": "dir::constraints/mul.sdc",
+
+    "FP_PDN_VOFFSET": 7,
+    "FP_PDN_HOFFSET": 7,
+    "FP_PDN_SKIPTRIM": true,
+
+    "FP_CORE_UTIL": 40,
+
+    "RUN_POST_GRT_RESIZER_TIMING": true,
+    "RUN_POST_GRT_DESIGN_REPAIR": true,
+
+    "GRT_REPAIR_ANTENNAS": true,
+    "GRT_ANTENNA_ITERS": 20,
+    "GRT_ANTENNA_MARGIN": 30
+}
