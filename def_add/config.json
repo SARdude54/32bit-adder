@@ -6,7 +6,7 @@
     ],
     "VERILOG_DEFINES": ["USE_POWER_PINS"],
 
-    "CLOCK_PERIOD": 10,
+    "CLOCK_PERIOD": 7.5,
     "CLOCK_PORT": "clk",
 
     "PNR_SDC_FILE": "dir::constraints/add.sdc",
